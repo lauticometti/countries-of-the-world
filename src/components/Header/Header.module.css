@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 14px;
+  box-shadow: 2px 0px 3px var(--light-mode-text);
+  background-color: var(--dark-mode-elements);
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.darkMode {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.moonContainer {
+  width: 13px;
+  aspect-ratio: 0.76/1;
+  display: flex;
+  align-items: center;
+}
+
+.moon {
+  width: 100%;
+  height: 100%;
+}
